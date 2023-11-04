@@ -25,9 +25,11 @@ dependencies {
 	implementation("org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.4")
 	implementation("org.mybatis.dynamic-sql:mybatis-dynamic-sql:1.2.1")
 	implementation("mysql:mysql-connector-java:8.0.23")
+	implementation("org.springframework.boot:spring-boot-starter-security")
 	mybatisGenerator("org.mybatis.generator:mybatis-generator-core:1.4.0")
 
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+
 }
 
 tasks.withType<Test> {
